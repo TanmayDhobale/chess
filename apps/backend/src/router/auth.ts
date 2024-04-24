@@ -2,7 +2,7 @@ import { Request, Response, Router } from 'express';
 import passport from 'passport';
 import jwt from 'jsonwebtoken';
 import { db } from '../db';
-import logger from 'your-logger-library'; // Replace with your logger library
+import logger from 'your-logger-library'; // Replace with your logger library , I would recommend either Winston or Pino, 
 
 const router = Router();
 
